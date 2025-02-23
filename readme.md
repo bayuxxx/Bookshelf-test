@@ -40,7 +40,7 @@ Pastikan Anda memiliki **browser web modern** seperti **Chrome, Firefox, atau Ed
 2. **Masuk ke direktori proyek**.
 
     ```sh
-    cd bookshelf-app
+    cd bookshelf-test
     ```
 
 3. **Buka file `index.html` di browser**.
@@ -55,7 +55,7 @@ Pastikan Anda memiliki **browser web modern** seperti **Chrome, Firefox, atau Ed
 
 ## 📂 Struktur File
 
-📁 **bookshelf-app/**  
+📁 **bookshelf-test/**  
  ├── 📄 `index.html` → Struktur utama halaman web.  
  ├── 📄 `main.js` → Logika aplikasi (tambah, hapus, simpan buku).  
  ├── 📄 `styles.css` → Styling tambahan untuk tampilan aplikasi.  
