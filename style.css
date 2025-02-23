@@ -1,0 +1,13 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+input {
+    min-width: 200px;
+}
+
+#book-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
