@@ -1,74 +1,81 @@
-````markdown name=README.md
-# Bookshelf App
+# 📚 Bookshelf App
 
-Ini adalah aplikasi Bookshelf sederhana yang memungkinkan pengguna untuk menambahkan dan menghapus buku. Data disimpan di web storage (localStorage) browser. Aplikasi ini menggunakan Tailwind CSS untuk styling.
+Bookshelf App adalah aplikasi sederhana untuk menambahkan dan menghapus buku dengan penyimpanan data menggunakan **localStorage** di browser. Aplikasi ini dibuat menggunakan **HTML**, **JavaScript**, dan **Tailwind CSS** untuk styling.
 
-## Fitur
+## ✨ Fitur
 
-- Tambahkan buku dengan judul dan penulis.
-- Hapus buku dari daftar.
-- Simpan daftar buku di localStorage browser sehingga tetap ada meskipun halaman direfresh atau browser ditutup.
+✅ Tambahkan buku dengan **judul** dan **penulis**.  
+✅ Hapus buku dari daftar dengan mudah.  
+✅ Data tetap tersimpan di **localStorage**, bahkan setelah halaman direfresh.  
 
-## Teknologi yang Digunakan
+---
 
-- HTML
-- JavaScript
-- Tailwind CSS
-- localStorage
+## 🛠 Teknologi yang Digunakan
 
-## Memulai
+- **HTML** → Struktur halaman web.
+- **JavaScript** → Logika aplikasi dan interaksi pengguna.
+- **Tailwind CSS** → Styling yang cepat dan fleksibel.
+- **localStorage** → Penyimpanan data secara lokal di browser.
 
-Ikuti instruksi ini untuk mengatur proyek di komputer lokal Anda.
+---
 
-### Prasyarat
+## 🚀 Memulai
 
-- Browser web modern (misalnya, Chrome, Firefox, Edge)
+Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputer Anda:
 
-### Instalasi
+### 📌 Prasyarat
 
-1. Clone repository atau unduh file proyek.
+Pastikan Anda memiliki **browser web modern** seperti **Chrome, Firefox, atau Edge**.
+
+### 🔧 Instalasi
+
+1. **Clone repository** atau **unduh file proyek**.
 
     ```sh
     git clone https://github.com/bayuxxx/Bookshelf-test.git
     ```
 
-    Atau unduh file ZIP dari proyek dan ekstrak.
+    Atau unduh file **ZIP**, lalu ekstrak.
 
-2. Navigasi ke direktori proyek.
+2. **Masuk ke direktori proyek**.
 
     ```sh
     cd bookshelf-app
     ```
 
-3. Buka file `index.html` di browser web Anda.
+3. **Buka file `index.html` di browser**.
 
     ```sh
     open index.html
     ```
+    
+    Atau klik kanan **`index.html`**, lalu pilih **"Open with"** dan pilih browser Anda.
 
-    Atau buka file `index.html` secara manual dengan mengklik ganda atau klik kanan dan pilih "Open with" dan kemudian browser Anda.
+---
 
-## Struktur File
+## 📂 Struktur File
 
-- `index.html`: File HTML utama yang berisi struktur halaman web.
-- `main.js`: File JavaScript yang berisi logika untuk menambahkan dan menghapus buku, serta berinteraksi dengan localStorage.
-- `styles.css`: File CSS yang berisi gaya kustom untuk aplikasi, dilengkapi dengan Tailwind CSS.
+📁 **bookshelf-app/**  
+ ├── 📄 `index.html` → Struktur utama halaman web.  
+ ├── 📄 `main.js` → Logika aplikasi (tambah, hapus, simpan buku).  
+ ├── 📄 `styles.css` → Styling tambahan untuk tampilan aplikasi.  
 
-## Penggunaan
+---
 
-1. Buka file `index.html` di browser Anda.
-2. Masukkan judul dan penulis buku di input field.
-3. Klik tombol "Add Book" untuk menambahkan buku ke daftar.
-4. Buku akan ditampilkan di daftar di bawahnya.
-5. Untuk menghapus buku, klik tombol "Remove" di samping buku yang ingin dihapus.
-6. Daftar buku disimpan di localStorage browser, sehingga tetap ada meskipun halaman direfresh atau browser ditutup dan dibuka kembali.
+## 📝 Penggunaan
 
-## Penjelasan Kode
+1. **Buka `index.html` di browser**.
+2. **Masukkan judul dan penulis buku** pada form yang tersedia.
+3. **Klik tombol "Add Book"** untuk menambahkan buku.
+4. Buku akan muncul di daftar di bawahnya.
+5. **Klik tombol "Remove"** untuk menghapus buku dari daftar.
+6. **Data akan tetap tersimpan** meskipun halaman direfresh atau browser ditutup.
 
-### index.html
+---
 
-File ini berisi struktur HTML aplikasi, termasuk input field untuk judul dan penulis buku, serta daftar untuk menampilkan buku.
+## 📜 Kode Sumber
 
+### 🔹 `index.html`
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -99,10 +106,7 @@ File ini berisi struktur HTML aplikasi, termasuk input field untuk judul dan pen
 </html>
 ```
 
-### main.js
-
-File ini berisi kode JavaScript yang menangani logika untuk menambahkan, menghapus, dan menampilkan buku menggunakan localStorage.
-
+### 🔹 `main.js`
 ```javascript
 document.addEventListener('DOMContentLoaded', () => {
     const bookTitleInput = document.getElementById('book-title');
@@ -149,10 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 ```
 
-### styles.css
-
-File ini berisi gaya CSS kustom yang melengkapi Tailwind CSS untuk tampilan aplikasi.
-
+### 🔹 `styles.css`
 ```css
 body {
     font-family: 'Inter', sans-serif;
@@ -169,11 +170,16 @@ input {
 }
 ```
 
-## Poin Pembelajaran
+---
 
-- **localStorage**: Pelajari cara menggunakan localStorage untuk menyimpan data secara persisten di browser.
-- **Manipulasi DOM**: Pahami cara memanipulasi DOM untuk menambahkan, menghapus, dan menampilkan elemen secara dinamis.
-- **Penanganan Event**: Pelajari cara menangani interaksi pengguna seperti klik tombol.
-- **Tailwind CSS**: Kenali penggunaan Tailwind CSS untuk styling halaman web dengan cepat dan efisien.
+## 🎯 Poin Pembelajaran
 
-````
+📌 **localStorage** → Simpan data secara persisten di browser.  
+📌 **Manipulasi DOM** → Tambah, hapus, dan tampilkan elemen secara dinamis.  
+📌 **Event Handling** → Tangani interaksi pengguna dengan event listener.  
+📌 **Tailwind CSS** → Styling halaman web dengan cepat dan fleksibel.  
+
+---
+
+💡 **Nikmati coding dan happy learning!** 🚀
+
