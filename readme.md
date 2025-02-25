@@ -176,10 +176,9 @@ input {
 
 📌 **localStorage** → Simpan data secara persisten di browser.  
 📌 **Manipulasi DOM** → Tambah, hapus, dan tampilkan elemen secara dinamis.  
-📌 **Event Handling** → Tangani interaksi pengguna dengan event listener.  
 📌 **Tailwind CSS** → Styling halaman web dengan cepat dan fleksibel.  
 
 ---
 
-💡 **Nikmati coding dan happy learning!** 🚀
+💡 **Nikmati coding dan happy learning** 🚀
 
